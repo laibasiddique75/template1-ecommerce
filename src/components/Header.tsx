@@ -1,7 +1,6 @@
-"use client"
+"use client";
 import Link from "next/link";
-import { RiArrowDropDownLine } from "react-icons/ri";
-import { MdOutlineAccountCircle } from "react-icons/md";
+
 import { IoCartOutline } from "react-icons/io5";
 import { IoIosSearch } from "react-icons/io";
 import { SheetSide } from "./Humburgur";
@@ -29,7 +28,7 @@ export default function Header() {
                     
                 
                     <Link href={``}><NavigationMenuDemo/></Link>
-                    <Link href={`/arrivale`}>On Sale</Link>
+                    <Link href={`/arrival`}>On Sale</Link>
                     <Link href={"/product"}>New Arrivals</Link>
                     <Link href={"/brands"}>Brands</Link>
                 </li>
